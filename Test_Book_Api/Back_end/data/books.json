@@ -1,0 +1,34 @@
+[
+  {
+    "id": "bk_1740159399293",
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "price": 1000,
+    "description": "A bold guide to living better by caring less, this 2016 bestseller by blogger Mark Manson challenges conventional self-help tropes.",
+    "imagePath": "/uploads/1740159399282.png"
+  },
+  {
+    "id": "bk_1740160025948",
+    "title": "The 48 Laws of Power",
+    "author": "Robert Greene",
+    "price": 1000,
+    "description": "An influential guide on strategy and manipulation, Robert Greene's bestseller distills power dynamics into 48 essential principles.",
+    "imagePath": "/uploads/1740160025936.jpg"
+  },
+  {
+    "id": "bk_1740160121015",
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "price": 1000,
+    "description": "A sweeping magical realist saga chronicling the Buendía family in the fictional town of Macondo, this 1967 novel redefined Latin American literature.",
+    "imagePath": "/uploads/1740160129355.jpeg"
+  },
+  {
+    "id": "bk_1740160250202",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki & Sharon Lechter",
+    "price": 1000,
+    "description": "First published in 1997, this modern classic promotes financial education through the contrast of two father figures with opposing money mindsets.",
+    "imagePath": "/uploads/1740160255209.jpg"
+  }
+]
