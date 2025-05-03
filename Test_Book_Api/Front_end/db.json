@@ -1,0 +1,12 @@
+{
+  "books": [
+    {
+      "id": "book-hh-nodejs",
+      "title": "Node.js Mastery",
+      "price": 1000,
+      "author": "Hagar Hatem",
+      "desc": "A complete guide to backend development with Node.js, covering core principles, real-world practices, and advanced techniques.",
+      "image": "/uploads/default-nodejs-book.jpg"
+    }
+  ]
+}
