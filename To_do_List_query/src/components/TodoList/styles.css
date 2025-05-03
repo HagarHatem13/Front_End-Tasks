@@ -1,0 +1,147 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+
+.app-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.components-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 24px;
+}
+
+/* Reusable Card Style */
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+/* Buttons */
+button {
+  padding: 8px 16px;
+  margin-right: 6px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+.crud-container button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.crud-container button:hover {
+  background-color: #388e3c;
+}
+
+.todo-container button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.todo-container button:hover {
+  background-color: #1976d2;
+}
+
+/* CRUD Styles */
+.crud-container {
+  composes: card;
+}
+
+.crud-container label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+
+.items-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.items-list li {
+  background: #fdfdfd;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s;
+}
+
+.items-list li:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Todo Styles */
+.todo-container {
+  composes: card;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.todo-list li {
+  background: #fdfdfd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.todo-list li:hover {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list .edit-input {
+  padding: 6px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
