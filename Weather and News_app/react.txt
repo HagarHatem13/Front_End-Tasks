@@ -1,0 +1,8 @@
+hook
+--->useState --->store the data el 7ena bent3ml m3aha goa el components bet3tenha 
+useEffect---->
+1- we can use it with any external source like Api----->Fetching data from an API
+2-you can use if you want to make something once the component 7salo  mound or render 
+3-3yza anfz 7aga once fe ta8oyer 7sal fe state aw fe update fe components beytm 
+
+1-  fe class component --> el function el betnafz awel ma component be7salo mound  
